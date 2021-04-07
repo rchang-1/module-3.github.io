@@ -1,0 +1,112 @@
+﻿/*Module 3*/
+
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+    padding-top:80px;
+}
+/*Header*/
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    height: 70px;
+}
+
+    .navbar-brand h1 {
+        font-family: 'Lora', serif;
+        color: #61122f;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+    }
+
+    .navbar-brand a:hover,
+    .navbar-brand a:focus {
+        text-decoration: none;
+    }
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+    #nav-list a {
+        color: #951C49;
+        text-align: center;
+    }
+
+        #nav-list a:hover {
+            color:#ffffff;
+            background: #951C49;
+        }
+
+    #nav-list hr {
+        width: 95%;
+    }
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 20px;
+}
+/*End Header*/
+
+/*Main-content*/
+#chicken,
+#beef,
+#shushi{
+    background-color:#F6B319;
+    padding:5px 15px;
+    margin-bottom: 30px;
+}
+
+#chicken p,
+#beef p,
+#shushi p{
+    padding:15px;
+}
+
+
+/*End Main-content*/
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+
+    /* End Header */
+}
+/**********Super extra small devices only **********/
+@media (max-width: 479px) {
+    /*Header*/
+
+        .navbar-brand h1 {
+            font-size: 7vw;
+        }
+
+    .navbar-header button.navbar-toggle {
+        margin-top: 15px;
+    }
+}
